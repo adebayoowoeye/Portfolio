@@ -1,32 +1,115 @@
+@import (css) url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
 .MainContainer{
     height: 100vh;
     width: 100%;
     background-color: #34353A;
     font-family: 'Times New Roman', Times, serif;
-    display: flex;
-    justify-content: space-around;
+    justify-content: center;
 
     
+}
+.logo, .mainMenu,.searchbar{
+    position: relative;
+    margin-top: 0;
+    float: left;
+    justify-content: center;
+   
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+    background-blend-mode: lighten;
 }
 
     
 .Menubar {
-    margin-top: 2rem;
-    height: 10%;
-    width: 100%;
+  
     display: flex;
-    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    gap: 2rem;
+   
+    
 
     
 }
 .Menubar ul{
     list-style: none;
     display: flex;
-    justify-content: space-around;
-    gap: 3rem;
-    margin: 0;
-    padding: 0;
+    justify-content: center;
+    margin-left: 3%;
+    font: 1.5 "Helvetica Neue";
+    gap: 2rem;
+  
+}
+
+.searchbar  {
+    position: relative;
+   height: 1.5rem;
+    display: flex;
+    margin-left: 20%;
+}
+input{
+    background-color: transparent;
+    width: 7rem;
+    padding: 2px;
+    border: 2px solid rgb(46, 44, 44);
+    border-radius: 5px;
+}
+button{
+    background-color: transparent;
+    width: auto;
+    font-size: 0.5em;
+    border-radius: 5px;
+    color: white;
+}
+.myIntro{
+    position: relative;
+    top: 100px;
+    height:50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+}
+.intro{
+    position: relative;
+    top: 10rem;
+    background-color: #34353A;
+    /* width: 50%; */
+    color: white;
+    margin-left: 3%;
+   
+}
+
+.intro h3{
+    font-size: 1.3em;
+    font-family: "Open Sans", sans-serif;
+    font-weight:300;
+}
+ span{
+    color: #FFC86B;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.intro p{
+
+  font-family: "Playwrite DE VA", cursive;
+  font-weight: 300;
+  font-size: 1.3em;
+ 
+  
+}
+.profilePic img{
+    width: 40rem;
+    opacity: 0.4;
+    background-blend-mode: lighten;
 }
 
 
